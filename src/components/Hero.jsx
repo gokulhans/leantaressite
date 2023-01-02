@@ -7,8 +7,8 @@ function Hero() {
         <section className="max-w-screen-2xl px-4 md:px-8 mx-auto">
             <div className="flex flex-wrap justify-between mb-8 md:mb-16">
                 <div className="w-full lg:w-1/3 flex flex-col justify-center lg:pt-20 lg:pb-24 mb-6 sm:mb-12 lg:mb-0">
-                    <h1 className="text-black-800 text-5xl text-center sm:text-5xl md:text-6xl font-bold mb-4 md:mb-8">Make
-                        your<br />dream home</h1>
+                    <h1 className="text-black-300 text-5xl text-center sm:text-5xl md:text-6xl font-black mb-4 md:mb-8"><span className='text-gray-600'>Make
+                        Your Dream</span><span className='text-red-600'> HOME</span></h1>
 
                     <p className="max-w-md text-gray-500 xl:text-lg leading-relaxed text-center">This is a section of some
                         simple filler text, also known as placeholder text. It shares characteristics of real text.</p>

@@ -13,19 +13,18 @@ import Faq from '../components/Faq';
 
 
 function Home() {
-  useEffect(() => {
-    window.scrollTo({
-      top: 20,
-      left: 0,
-      behavior: "smooth"
-    });
-  }, [])
+  // useEffect(() => {
+  //   window.scrollTo({
+  //     top: 0,
+  //     left: 0,
+  //   });
+  // }, [])
 
   return (
     <>
 
       <Hero />
-      <Feature />
+      {/* <Feature /> */}
       <FeatureTwo />
       <Clients />
       <Cta />

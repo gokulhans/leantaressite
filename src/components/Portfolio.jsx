@@ -7,7 +7,7 @@ function Portfolio() {
         <div className="container">
 
             <center className="mb-5">
-                <h1 class="font-bold text-4xl"><span class="text-red-500">OUR
+                <h1 class="font-black text-4xl"><span class="text-red-500">OUR
                     </span><span><b>WORKS</b></span>
                 </h1>
             </center>
@@ -15,9 +15,9 @@ function Portfolio() {
             <div className="row">
                 <div className="col-lg-12 d-flex justify-content-center">
                     <ul id="portfolio-flters">
-                        <li data-filter="*" className="filter-active">All</li>
-                        <li data-filter=".filter-app">Villas</li>
-                        <li data-filter=".filter-card">Apartments</li>
+                        <li data-filter="*" className="filter-active mx-2">All</li>
+                        <li data-filter=".filter-app" className='mx-2'>Villas</li>
+                        <li data-filter=".filter-card" className='mx-2'>Apartments</li>
                         <li data-filter=".filter-web">Resorts</li>
                     </ul>
                 </div>

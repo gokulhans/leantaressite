@@ -9,7 +9,7 @@ function Status() {
             {/* <!-- text - start --> */}
             <div className="mb-10 md:mb-16">
                 <center className="mb-5">
-                    <h1 class="font-bold text-4xl"><span class="text-red-500">OUR
+                    <h1 class="font-black text-4xl"><span class="text-red-500">OUR
                         </span><span><b> STATUS</b></span>
                     </h1>
                 </center>
