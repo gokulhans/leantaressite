@@ -4,6 +4,16 @@ import { Link } from 'react-router-dom';
 function Navbar() {
 
     function MyNavbar() {
+        var z=1
+        var x = document.getElementById("mobile-menu-2");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+
+    function MyNavbar2() {
         var x = document.getElementById("mobile-menu-2");
         if (x.style.display === "block") {
             x.style.display = "none";
