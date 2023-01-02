@@ -8,7 +8,7 @@ function Feature() {
 <section className="p-6 text-gray-800">
 <div className="container p-4 mx-auto text-center">
     <center className="mb-5">
-        <h1 class="font-black text-4xl"><span class="text-red-500">TRUSTED BY
+        <h1 className="font-black text-4xl"><span className="text-red-500">TRUSTED BY
             </span><span><b>  INDUSTRY LEADERS</b></span>
         </h1>
     </center>

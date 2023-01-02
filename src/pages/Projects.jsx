@@ -11,7 +11,7 @@ function Projects() {
     <>
 
       <center className="mt-5">
-        <h1 class="font-black text-4xl"><span class="text-red-500">EXPLORE
+        <h1 className="font-black text-4xl"><span className="text-red-500">EXPLORE
         </span><span><b> OUR PROJECTS</b></span>
         </h1>
       </center>

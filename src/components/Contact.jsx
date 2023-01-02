@@ -6,7 +6,7 @@ function Contact() {
             <div className="container">
 
                 <center>
-                    <h1 class="font-black text-4xl"><span class="text-red-500">GET IN
+                    <h1 className="font-black text-4xl"><span className="text-red-500">GET IN
                         </span><span><b> TOUCH WITH
                                 US</b></span>
                     </h1>

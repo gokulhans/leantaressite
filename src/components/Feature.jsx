@@ -5,7 +5,7 @@ function Feature() {
         <>
 
             <center className="mb-5">
-                <h1 class="font-black text-4xl"><span class="text-red-500">WHAT
+                <h1 className="font-black text-4xl"><span className="text-red-500">WHAT
                 </span><span><b> WE OFFER</b></span>
                 </h1>
             </center>

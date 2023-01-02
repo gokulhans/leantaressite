@@ -7,7 +7,7 @@ function Portfolio() {
         <div className="container">
 
             <center className="mb-5">
-                <h1 class="font-black text-4xl"><span class="text-red-500">OUR
+                <h1 className="font-black text-4xl"><span className="text-red-500">OUR
                     </span><span><b>WORKS</b></span>
                 </h1>
             </center>
