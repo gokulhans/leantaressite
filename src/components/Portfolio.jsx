@@ -15,7 +15,7 @@ function Portfolio() {
             <div className="row">
                 <div className="col-lg-12 d-flex justify-content-center">
                     <ul id="portfolio-flters">
-                        <li data-filter="*" className="filter-active mx-2">All</li>
+                        {/* <li data-filter="*" className="filter-active mx-2">All</li> */}
                         <li data-filter=".filter-app" className='mx-2'>Villas</li>
                         <li data-filter=".filter-card" className='mx-2'>Apartments</li>
                         <li data-filter=".filter-web">Resorts</li>
