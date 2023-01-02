@@ -3,8 +3,12 @@ import { Link } from 'react-router-dom';
 
 function Navbar() {
 
+    var z=0
+
     function MyNavbar() {
-        var z=1
+        console.log(z);
+        z=1
+        console.log(z);
         var x = document.getElementById("mobile-menu-2");
         if (x.style.display === "block") {
             x.style.display = "none";
@@ -14,11 +18,11 @@ function Navbar() {
     }
 
     function MyNavbar2() {
+        console.log('called');
+        console.log(z);
         var x = document.getElementById("mobile-menu-2");
-        if (x.style.display === "block") {
+        if (z==1) {
             x.style.display = "none";
-        } else {
-            x.style.display = "block";
         }
     }
 
@@ -55,7 +59,7 @@ function Navbar() {
 
                     <div className="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-2">
                         <ul className="mt-2 sm:mt-0 flex flex-col font-medium lg:flex-row lg:space-x-8 lg:mt-0">
-                            <li>
+                            <li >
                                 <Link to={'/'}
                                     className="block py-2 pr-4 pl-3 text-red-500 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-red-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Home</Link>
                             </li>
